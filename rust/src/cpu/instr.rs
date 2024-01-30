@@ -1,0 +1,17 @@
+pub const OPCODE_LUI: u64 = 0b0011_0111;
+pub const OPCODE_AUIPC: u64 = 0b0001_0111;
+
+pub const OPCODE_JAL: u64 = 0b0110_1111;
+pub const OPCODE_JALR: u64 = 0b0110_0111;
+pub const OPCODE_BRANCH: u64 = 0b0110_0011;
+
+pub const OPCODE_LOAD: u64 = 0b0000_0011;
+pub const OPCODE_STORE: u64 = 0b0010_0011;
+
+pub const OPCODE_OP_IMM: u64 = 0b0001_0011;
+pub const OPCODE_OP_IMM32: u64 = 0b0001_1011;
+pub const OPCODE_OP: u64 = 0b0011_0011;
+pub const OPCODE_OP32: u64 = 0b0011_1011;
+
+pub const OPCODE_MISC_MEM: u64 = 0b0000_1111;
+pub const OPCODE_SYSTEM: u64 = 0b0111_0011;
